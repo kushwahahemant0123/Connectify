@@ -1,7 +1,6 @@
 import express from 'express';
 import { createServer } from 'node:http';
-import dotenv from 'dotenv';
-dotenv.config();
+
 
 import { Server } from "socket.io";
 import mongoose from "mongoose";
